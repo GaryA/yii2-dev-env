@@ -12,14 +12,14 @@ Remove these lines
     defined('YII_ENV') or define('YII_ENV', 'dev');
 
 Add these lines in their place
-	// If the package is installed via composer with --no-dev then yii2-dev-env will not be included
-	// If the development packages are included then including dev-env.php will set the YII_DEBUG and
-	// YII_ENV constants to their development/debug values, otherwise they default to production values
-	$dev_env = __DIR__ . '/../vendor/garya/yii2-dev-env/dev-env.php';
-	if(file_exists($dev_env))
-	{
-		include $dev_env;
-	}
+    // If the package is installed via composer with --no-dev then yii2-dev-env will not be included
+    // If the development packages are included then including dev-env.php will set the YII_DEBUG and
+    // YII_ENV constants to their development/debug values, otherwise they default to production values
+    $dev_env = __DIR__ . '/../vendor/garya/yii2-dev-env/dev-env.php';
+    if(file_exists($dev_env))
+    {
+        include $dev_env;
+    }
 
 Now, when you use Composer to install the project with the `--no-dev` option the `dev-env.php` file 
 will not be installed and the environment will be set as production. When the development 
