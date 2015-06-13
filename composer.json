@@ -1,0 +1,21 @@
+{
+    "name": "garya/yii2-dev-env",
+    "description": "An easy mod for Yii2 basic application to switch between development and production environments.",
+    "keywords": ["yii2", "yii 2", "basic", "environment", "development"],
+    "homepage": "https://github.com/garya/yii2-dev-env",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gary Aylward",
+            "email": "gary.aylward@ntlworld.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/garya/yii2-dev-env/issues?state=open",
+        "source": "https://github.com/garya/yii2-dev-env"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
