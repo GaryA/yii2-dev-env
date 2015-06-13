@@ -6,12 +6,12 @@ Add this extension to the `require-dev` section of your project's composer.json 
 
 Edit the project's `index.php` file as follows:
 
-Remove these lines
+Remove these lines  
     // comment out the following two lines when deployed to production
     defined('YII_DEBUG') or define('YII_DEBUG', true);
     defined('YII_ENV') or define('YII_ENV', 'dev');
 
-Add these lines in their place
+Add these lines in their place  
     // If the package is installed via composer with --no-dev then yii2-dev-env will not be included
     // If the development packages are included then including dev-env.php will set the YII_DEBUG and
     // YII_ENV constants to their development/debug values, otherwise they default to production values
